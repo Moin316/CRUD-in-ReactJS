@@ -1,11 +1,12 @@
 import React from 'react'
-import Posts from './components/posts'
-
+import {Posts} from './components/Posts'
 const App = () => {
   return (
+    <>
     <section className='main-section'>
       <Posts/>
     </section>
+    </>
   )
 }
 
